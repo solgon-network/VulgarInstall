@@ -34,4 +34,12 @@ while getopts ":h" option; do
         exit;;
    esac
 done
-echo "Hello world!"
+echo "What up Bitch"
+sleep 2
+clear
+read -s "whats the fucking password?" passwrd
+if $passwrd == str('time')
+  echo "good job"
+  
+else
+fi
